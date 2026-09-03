@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "2izi Screenshot — Full Page & Area to JPG",
+    "description": "Extension name shown in Chrome Web Store and toolbar tooltip"
+  },
+  "extDescription": {
+    "message": "Capture the full page or a selected area and save it straight to JPG. No preview tabs, no extra viewers — just like the native macOS screenshot tool.",
+    "description": "Extension description shown in Chrome Web Store"
+  },
+  "popupTitle": {
+    "message": "Quick Screenshot",
+    "description": "Header inside the popup"
+  },
+  "btnFullPage": {
+    "message": "Full page",
+    "description": "Button: capture the whole scrollable page"
+  },
+  "btnArea": {
+    "message": "Select area",
+    "description": "Button: drag-select a region of the page"
+  },
+  "toastFullPageDone": {
+    "message": "✓ Full page screenshot saved",
+    "description": "Toast shown after a successful full-page capture"
+  },
+  "toastAreaDone": {
+    "message": "✓ Selected area saved",
+    "description": "Toast shown after a successful area capture"
+  },
+  "toastError": {
+    "message": "✗ Error: $ERROR$",
+    "description": "Toast shown when a capture fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Cannot access this page"
+      }
+    }
+  }
+}

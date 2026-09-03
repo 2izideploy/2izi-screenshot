@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "2izi Screenshot — вся страница и область в JPG",
+    "description": "Extension name shown in Chrome Web Store and toolbar tooltip"
+  },
+  "extDescription": {
+    "message": "Скриншот всей страницы или выделенной области сразу сохраняется в JPG. Без превью во вкладках и посторонних просмотрщиков — как нативный инструмент скриншотов в macOS.",
+    "description": "Extension description shown in Chrome Web Store"
+  },
+  "popupTitle": {
+    "message": "Quick Screenshot",
+    "description": "Header inside the popup"
+  },
+  "btnFullPage": {
+    "message": "Вся страница",
+    "description": "Button: capture the whole scrollable page"
+  },
+  "btnArea": {
+    "message": "Выделить область",
+    "description": "Button: drag-select a region of the page"
+  },
+  "toastFullPageDone": {
+    "message": "✓ Скриншот страницы сохранён",
+    "description": "Toast shown after a successful full-page capture"
+  },
+  "toastAreaDone": {
+    "message": "✓ Область сохранена",
+    "description": "Toast shown after a successful area capture"
+  },
+  "toastError": {
+    "message": "✗ Ошибка: $ERROR$",
+    "description": "Toast shown when a capture fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Cannot access this page"
+      }
+    }
+  }
+}
